@@ -9,8 +9,8 @@ public class Main {
         String name2 = scanner.nextLine();
         String name3 = scanner.nextLine();
 
-        System.out.println(name);
-        System.out.println(name2);
+        System.out.println(name.toLowerCase());
+        System.out.println(name2.toUpperCase());
         System.out.println(name3);
 
     }
